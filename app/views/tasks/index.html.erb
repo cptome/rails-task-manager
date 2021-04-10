@@ -1,9 +1,9 @@
 <h1>aca aparecen las tareas si todo esta bien</h1>
 <h2>hay que hacer un eac para cada task</h2>
 <%= @task %>
-<h1>My Tasks &#9200; </h1>
+
 <ol>
-  <% @tasks.each do |task| %>
+h1  <% @tasks.each do |task| %>
     <li><%= task.title %> 
       <% if task.completed %>
         &#9989; <% else %>
